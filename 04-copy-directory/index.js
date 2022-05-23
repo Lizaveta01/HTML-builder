@@ -22,19 +22,3 @@ try{
 catch(err) {
   console.log(err);
 }
-
-//---------------------------------------------------------------
-
-// function copyDir(dirFrom, dirTo) {
-//   console.log(dirFrom);
-//   fs.rm(dirTo, {recursive:true, force: true});
-//   fs.mkdir(dirTo, {recursive: true});
-//   console.log(dirFrom);
-//   const files = fs.readdir(dirFrom);
-//   console.log(files);
-//   for (let file of files) {
-//     fs.copyFile (path.resolve(dirFrom, file), path.resolve(dirTo, file));
-//   }}
-    
-// copyDir(viaFiles, viaCopy);
-  

@@ -12,7 +12,7 @@ async function readDir(dirFrom) {
   fileCss.forEach(file => {
     const readableStream = fs.createReadStream(path.join(__dirname, 'styles', file.name));
     readableStream.pipe(bundle, { end: false });
-  })
+  });
 
 }
 
